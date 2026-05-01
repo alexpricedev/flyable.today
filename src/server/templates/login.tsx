@@ -24,9 +24,10 @@ export const Login = ({ state }: LoginProps) => {
           </div>
 
           <div className="login-card">
-            <h2 className="login-title">Sign in to your account</h2>
+            <h2 className="login-title">Sign in or create an account</h2>
             <p className="login-subtitle">
-              We'll send you a magic link to sign in instantly
+              Enter your email and we'll send a magic link. New here? We'll set
+              up your account automatically.
             </p>
 
             {state?.state === "email-sent" ? (

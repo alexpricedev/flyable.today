@@ -39,7 +39,7 @@ describe("Login Controller", () => {
 
       expect(response.status).toBe(200);
       expect(response.headers.get("content-type")).toBe("text/html");
-      expect(html).toContain("Sign in to your account");
+      expect(html).toContain("Sign in or create an account");
       expect(html).toContain('name="email"');
       expect(html).toContain("Send magic link");
     });
