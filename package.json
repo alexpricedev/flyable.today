@@ -1,6 +1,6 @@
 {
-  "name": "pg-weather",
-  "description": "A full-stack TypeScript starter designed to be built on by AI coding agents",
+  "name": "flyable.today",
+  "description": "The paraglider's morning check. Add your sites, set the wind arcs that launch them, see at a glance whether today's flyable.",
   "version": "1.0.0",
   "scripts": {
     "build": "bun run build:client && bun run build:css",
